@@ -1,7 +1,5 @@
-﻿
-#region Q1
-/*- Write a program that takes a number from the user then print yes if that number can be divided by 3 and 4 otherwise print no.*/
-Console.WriteLine("please enter  Num");
+﻿/*- Write a program that takes a number from the user then print yes if that number can be divided by 3 and 4 otherwise print no.*/
+/*Console.WriteLine("please enter  Num");
 int.TryParse(Console.ReadLine(), out int num);
 
 if(num%3==0&&num%4==0)
@@ -12,13 +10,10 @@ else
 {
     Console.WriteLine("No");
 }
-#endregion
-
-
-#region Q2
+*/
 /*- Write a program that allows the user to insert an integer then print negative if it is negative number otherwise print positive.*/
 
-Console.WriteLine("please enter  Num");
+/*Console.WriteLine("please enter  Num");
 int.TryParse(Console.ReadLine(), out int num);
 if(num>0)
 {
@@ -33,10 +28,10 @@ else
 {
     Console.WriteLine("nagative");
 }
-#endregion
-#region Q3
+*/
+
 /*Write a program that takes 3 integers from the user then prints the max element and the min element.*/
-Console.WriteLine("please enter num1\n");
+/*Console.WriteLine("please enter num1\n");
 int.TryParse(Console.ReadLine(), out int num1);
 Console.WriteLine("please enter num2\n");
 int.TryParse(Console.ReadLine(), out int num2);
@@ -58,24 +53,22 @@ else if ( num1>num3&&num3>num2)
 {
     Console.WriteLine($"max num {num1} and min num {num2}");
 
-}
-#endregion
+}*/
 
-#region Q4
+
 /*Write a program that allows the user to insert an integer number then check If a number is even or odd.*/
 
-Console.WriteLine("please enter  Num");
+/*Console.WriteLine("please enter  Num");
 int.TryParse(Console.ReadLine(), out int num);
 if (num % 2 == 0)
     Console.WriteLine("num is even num");
 else
-    Console.WriteLine("num is odd num");
+    Console.WriteLine("num is odd num");*/
 
-#endregion
 
-#region Q5
+
 /*- Write a program that takes character from the user then if it is a vowel chars (a,e,I,o,u) then print (vowel) otherwise print (consonant).*/
-Console.WriteLine("please enter your charcter");
+/*Console.WriteLine("please enter your charcter");
 char.TryParse(Console.ReadLine(), out char word);
 if(word=='a')
 {
@@ -104,23 +97,21 @@ else
 {
     Console.WriteLine("Consonant");
 }
-#endregion
+*/
 
-#region Q6
 /*- Write a program that allows the user to insert an integer then 
 print a multiplication table up to 12*/
-Console.WriteLine("please enter num");
+/*Console.WriteLine("please enter num");
 int.TryParse(Console.ReadLine(), out int num);
 for(int i =1; i<=12; i++)
 {
     Console.WriteLine(i*num);
-}
+}*/
 
-#endregion
 
-#region Q7
+
 /*8- Write a program that allows to user to insert number then print all even numbers between 1 to this number*/
-Console.WriteLine("please enter num");
+/*Console.WriteLine("please enter num");
 int.TryParse(Console.ReadLine(), out int num);
 for(int i=1;i<=num;i++)
 {
@@ -128,13 +119,10 @@ for(int i=1;i<=num;i++)
     {
         Console.WriteLine(i);
     }
-}
-#endregion
-
-#region Q8
+}*/
 /*Write a program that takes two integers then prints the power*/
 
-Console.WriteLine("please enter num1");
+/*Console.WriteLine("please enter num1");
 int.TryParse(Console.ReadLine(), out int num1);
 Console.WriteLine("please enter num2");
 int.TryParse(Console.ReadLine(), out int num2);
@@ -145,18 +133,15 @@ for (int i =1; i<=num2; i++)
     sum *=num1;
     
 }
-Console.WriteLine(sum);
-#endregion
+Console.WriteLine(sum);*/
 
-
-#region Q9
 /*Write a program to enter marks of five subjects and calculate total, average and percentage.*/
 
 
 
 
 
-/int[] marks = new int[5];
+/*int[] marks = new int[5];
 for (int i = 0; (i) < 5; (i)++)
 {
 
@@ -174,21 +159,20 @@ double percent = (sum / 500) * 100;
 
 
 Console.WriteLine($"avg is {avg}\n");
-Console.WriteLine($"percent is {percent}%");
-#endregion
+Console.WriteLine($"percent is {percent}%");*/
 
 
 
 
 
 
-#region Q10
+
 
 /*Write a program to input the month number and print the number of days in that month.*/
 
 
 
-Console.Write("Enter the month number (1-12): ");
+/*Console.Write("Enter the month number (1-12): ");
 int month = int.Parse(Console.ReadLine());
 
 int days;
@@ -229,14 +213,12 @@ switch (month)
         return;
 }
 
-Console.WriteLine($"The month {month} has {days} days.");
+Console.WriteLine($"The month {month} has {days} days.");*/
 
-#endregion
-#region Q11
 
 /*-Write a program to create a Simple Calculator.*/
 
-Console.WriteLine("please enter num1\n");
+/*Console.WriteLine("please enter num1\n");
 int.TryParse(Console.ReadLine(), out int num1);
 Console.WriteLine("please enter spcial charcter\n");
 char.TryParse(Console.ReadLine(), out char specail);
@@ -263,9 +245,8 @@ else if (specail == '/')
     Console.WriteLine(num1 / num2);
 
 }
-#endregion
+*/
 
-#region Q12
 /*Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.*/
 
 Console.WriteLine("Enter coordinates of the first point (x1, y1):");
@@ -291,14 +272,14 @@ double area = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2);
 Console.WriteLine(area);
 
 
-#endregion
 
 
 
 
 
 
-#region Q13
+
+
 
 /*Within a company, the efficiency of workers is evaluated based on the duration required to complete a specific task. A worker's efficiency level is determined as follows: 
 - If the worker completes the job within 2 to 3 hours, they are considered highly efficient. 
@@ -337,4 +318,3 @@ else
 {
     Console.WriteLine("Invalid input. Time should be 2 hours or more.");
 }
-#endregion
